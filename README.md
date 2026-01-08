@@ -1,7 +1,3 @@
-1. Configurar la Base de Datos (PostgreSQL)
-Primero, creamos la base de datos y ejecutamos tu script .sql.
-
-Bash
 
 # 1. Entrar a Postgres y crear la base de datos
 sudo -u postgres psql -c "CREATE DATABASE inventario_fravatel;"
@@ -26,3 +22,4 @@ source .venv/bin/activate
 
 # 3. Ejecutar la API
 uv run python app.py
+
